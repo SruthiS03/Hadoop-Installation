@@ -16,14 +16,13 @@
 
 ### Hadoop
 - Download hadoop from officical release page: [link](https://hadoop.apache.org/releases.html)
-- Make sure to download the `binary`
+- download the `binary` without fail.
 
 ## Installation
 ### Decompression
 - Open 7Zip as `Administrator`
 - Unzip the downloaded hadoop-<VER>.tar.gz.
-- This will produce a tarball (.tar) file.
-- Uzip tarball again.
+- This will produce a tarball (.tar) file and unzip tarball again.
 - Copy the Uzipped folder to C:\
 
 ### Decompression (Alternate Way)
@@ -41,7 +40,7 @@
 %JAVA_HOME%/bin
 %HADOOP_HOME%/bin
 ```
-- verify this by `java -version` and `hadoop -version` in cmd.
+- verify this by `java -version` and `hadoop -version` in command prompt.
 
 ### Additional Packages
 - Download the `bin.zip` from this repository.
